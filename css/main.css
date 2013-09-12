@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background: url('../images/paper.jpeg') repeat;
+	background-color: #ddd;
+	margin-top: 30px;
+}
+img {
+	resize: both;
+	height: 200px;
+	width: 200px;
+}
+.sitelogo {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 25%;
+	width: 25%;
+}
+header {
+	color: #540387;
+	text-align: center;
+}
+h1 {
+	font-size: 35px bold;
+}
+.pagetitle {
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+h2 {
+	font-style: oblique;
+	font-weight: 300;
+}
+h4 {
+	letter-spacing: 4px;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 15px;
+	overflow: hidden;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+caption {
+	font: 25px bold garamond;
+	background-color: green;
+	margin: 20px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid dotted solid dotted;
+	position: absolute;
+	bottom: 0px;
+}
+.fight {
+	position: absolute;
+	right: 30px;
+	z-index: 1;
+}
+h5 {
+	border: 3px dashed #333;
+}
+th {
+	font: 20px bold;
+	font-family: garamond, serif;
+	color: white;
+	background: linear-gradient(to bottom, black, red);
+	border-radius: 15px;
+	padding: 25px;
+}
+td {
+	border-radius: 20px;
+	overflow:hidden;
+}
+ul {
+	list-style-image: url('sqpurple.jpeg');
+	list-style-position: inside;
+	list-style-type: circle;
+}
+ol {
+	list-style: armenian outside;
+}
+.code {
+	visibility: hidden;
+}
+.articlecontent {
+	white-space:nowrap;
+}
+.indent {
+	text-indent: 50px;
+	line-height: 50%;
+	overflow: hidden;
+}
+.remake {
+	display:block;
+	background-image: url('../images/repeat.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left top;
+	overflow:hidden;
+}
+pre {
+	background: url('../images/snow.jpeg') repeat center;
+	color: red;
+}
+.ex1 {
+	float:left;
+	font-size:250%;
+	line-height: 80%;
+}
+.bacon {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+h6 {
+	vertical-align: text-bottom;
+	background-color: #3E9FB5;
+}
+iframe {
+	min-height:300px;
+	min-width: 900px;
+	margin-left: 30px;
+}
+video {
+	max-height: 500px;
+	max-width: 500px;
+}
+section {
+	display: inline-block;
+	height: 100px;
+	width: 400px;
+}
+.syfylogo {
+	resize: both;
+	height: 12.5%;
+	width: 12.5%;
+}
